@@ -1,0 +1,29 @@
+.navbar {
+   background-color: black;
+   opacity: 0.9;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.nav-item {
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+
+.nav-item:hover {
+    color: lightgrey;
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+}
+

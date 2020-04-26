@@ -1,0 +1,87 @@
+.btn-dark {
+    background: #485563;
+    background: -webkit-linear-gradient(to right, #29323c, #485563); 
+    background: linear-gradient(to right, #29323c, #485563); 
+    color: white;
+}
+
+.btn-dark:hover {
+    cursor: pointer;
+    background-color: darkgray;
+    color: darkgrey;
+}
+
+.row-contactform {
+    text-align: left;
+    padding: 5px;
+    margin: 0 auto; 
+}
+
+.contact-info img {
+    padding: 5px;
+}
+
+.hero-contact__section {
+    background-image: url('https://images.pexels.com/photos/51415/pexels-photo-51415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 320px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.btn-dark {
+    padding: 10px;
+    margin: 10px;
+}
+
+.textAbout {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.iframeMaps {
+    width: 100%;
+    height: 450px;
+    margin-top: 40px;
+}
+
+.contactIcons img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+
+.contact-info {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact-info img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+
+.contactIcons {
+    padding: 20px;
+    text-align: center;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbarNavAltMarkup {
+        display: block !important;
+    }
+
+    .btn-logOut {
+        display: none;
+    }
+  }

@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#aboutMe .infoAboutMe {
+	display: flex;
+	flex-direction: row;
+}
+
+#aboutMe h2 {
+	color: #0d2435;
+}
+
+#aboutMe h2::after {
+	border-bottom: 2px dashed #918D8D;
+}
+
+#aboutMe .infoAboutMe p {
+	line-height: 270%;
+}
+
+#aboutMe .signature {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 150%;
+	float: right;
+	color: #0d2435;
+	opacity: .9;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.Animation-loading {
+	width: 100%;
+    background-color: #ddd;
+	border-radius: 15px;
+}
+
+.Animation-loading .programSkill:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    margin-left: 15px;
+
+}
+
+.programSkill {
+	border-radius: 15px;
+	text-align: right;
+	padding: 10px;
+	color: white;
+	margin-bottom: 1rem;
+}
+			
+.cms {
+	width: 50%;
+	background-color: #ED4C67;
+	animation: animate 6s 1;
+}
+			
+.git {
+	width: 90%;
+	background-color: #F79F1F;
+	animation: animate 6s 1;
+}
+			
+.html {
+	width: 95%;
+	background-color: #1289A7;
+	animation: animate 6s 1;
+}
+			
+.css {
+    width: 85%;
+	background-color: #D980FA;
+	animation: animate 6s 1;
+}
+			
+.bs {
+	width: 90%;
+	background-color: #EE5A24;
+	animation: animate 6s 1;
+}
+			
+.rwd {
+	width: 85%;
+	background-color: #B53471;
+	animation: animate 6s 1;
+}
+			
+.js {
+	width: 70%;
+	background-color: #009432;
+	animation: animate 6s 1;
+}
+			
+.jquery {
+	width: 60%;
+	background-color: #0652DD;
+	animation: animate 6s 1;
+}
+			
+.react {
+	width: 70%;
+	background-color: #9980FA;
+	animation: animate 6s 1;
+}
+			
+@keyframes animate {
+from {
+	width: 0%;
+    }
+}
+			
+p {
+	font-weight: bold;
+	margin-bottom: 0 !important;
+}
+
+blockquote {
+   font-style: italic;
+}
+
+.info h4 {
+    font-style: italic;
+}
+
+.mt-5 img:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+    margin-left: -15px;
+}
+
